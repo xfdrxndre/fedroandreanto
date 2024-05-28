@@ -100,9 +100,6 @@ span {
 .home-content p{
   text-align: justify;
 }
-.home-img {
-  border-radius: 50%;
-}
 .home-img img {
   position: absolute;
   right: 19rem;
