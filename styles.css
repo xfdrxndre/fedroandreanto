@@ -105,6 +105,7 @@ span {
   right: 19rem;
   top: 30rem;
   width: 25vw;
+  border-radius: 50%;
   box-shadow: 0 0 50px #348498;
   cursor: pointer;
   transition: 0.4s ease-in-out;
