@@ -774,7 +774,7 @@ span {
 }
 @media (min-width: 1440px) {
   .slider {
-    width: 100%;
+    width: 150%;
     margin-left: -160%;
   }
 }
