@@ -419,7 +419,7 @@ span {
   margin: auto;
   margin-left: -165px;
   position: relative;
-  width: 1400px;
+  width: 100%;
   display: grid;
   place-items: center;
   overflow: hidden;
