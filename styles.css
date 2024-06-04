@@ -759,3 +759,16 @@ span {
     align-items: center;
   }
 }
+@media (min-width: 1050px) {
+  .slider {
+    width: 115%;
+    margin-left: -7%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .slider {
+    width: 120%;
+    margin-left: -10%;
+  }
+}
