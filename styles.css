@@ -772,3 +772,9 @@ span {
     margin-left: -10%;
   }
 }
+@media (min-width: 1440px) {
+  .slider {
+    width: 100%;
+    margin-left: -10%%;
+  }
+}
