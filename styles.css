@@ -417,7 +417,6 @@ span {
 .slider {
   height: 250px;
   margin: auto;
-  margin-left: -165px;
   position: relative;
   width: 100%;
   display: grid;
