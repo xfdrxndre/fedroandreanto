@@ -494,7 +494,7 @@ span {
 }
 .portfolio-box{
   background-color: #348498;
-  height: 300px;
+  height: 350px;
   border-radius: 3rem;
   border: 5px solid transparent;
   cursor: pointer;
@@ -516,12 +516,12 @@ span {
   padding: 5rem 5rem;
 }
 .portfolio-info h4{
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   line-height: 2;
 }
 .portfolio-info p{
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 600;
   max-height: 100px;
   line-height: 1.7;
