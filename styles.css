@@ -527,7 +527,7 @@ span {
   font-weight: 600;
   max-height: 100px;
   line-height: 1.7;
-  margin: 1px;
+  margin: auto;
 }
 .contact {
   background-color: #131313;
