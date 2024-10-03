@@ -79,6 +79,8 @@ section {
   justify-content: center;
   margin-top: 3rem;
   max-width: 50%;
+  text-align: center;
+  align-items: center;
 }
 span {
   color:#348498;
@@ -720,7 +722,11 @@ span {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-
+  
+  .home-content {
+    text-align: center;
+    align-items: center;
+    padding: 0 2rem;
   .slider {
     height: 170px;
   }
@@ -728,6 +734,36 @@ span {
   .slide {
     height: 150px;
     width: 200px;
+  }
+  
+  .portfolio-container {
+   grid-template-columns: 1fr;
+  }
+
+  .portfolio-box {
+  height: auto;
+  min-height: auto;
+  padding: 2rem;
+  }
+
+  .portfolio-box .portfolio-info {
+    height: auto;
+    max-height: none;
+  }
+
+  .contact form {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .contact form .input-box {
+    flex-direction: column;
+  }
+
+  .contact form .input-box input,
+  .contact form textarea {
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
@@ -756,7 +792,6 @@ span {
 
   .home-content {
     max-width: 100%;
-
     justify-content: center;
     align-items: center;
   }
