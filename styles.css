@@ -481,30 +481,27 @@ span {
   top: 0;
   transform: rotateZ(180deg);
 }
+
 .portfolio {
   color: #000;
   padding: 2rem 0;
-  width: 100vw; /* Gunakan viewport width */
-  max-width: 100%; /* Pastikan tidak overflow */
-  overflow-x: hidden;
+  width: 100%;
 }
 
 .portfolio h2 {
   margin-bottom: 3rem;
   color: #ffffff;
   text-align: center;
-  width: 100%;
 }
 
 .portfolio-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  width: 90%;
+  width: 100%; /* Ubah ke 100% */
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  overflow: hidden; /* Mencegah overflow */
+  margin: 0; /* Hapus margin auto */
+  padding: 0;
 }
 
 .portfolio-box {
@@ -513,7 +510,7 @@ span {
   border: 5px solid transparent;
   cursor: pointer;
   transition: 0.4s ease-in-out;
-  width: 100%; /* Pastikan box mengambil lebar penuh */
+  width: 100%;
 }
 
 .portfolio-box:hover {
@@ -525,9 +522,7 @@ span {
 
 .portfolio-box .portfolio-info {
   padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem; /* Tambah gap antara heading dan paragraf */
+  width: 100%;
 }
 
 .portfolio-info h4 {
@@ -573,24 +568,33 @@ span {
   }
 }
 
-/* Mobile */
+/* Mobile View */
 @media screen and (max-width: 768px) {
   .portfolio-container {
     grid-template-columns: 1fr;
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 1rem; /* Tambah padding di container */
+    margin: 0;
+  }
+  
+  .portfolio-box {
+    width: 100%;
+    margin: 0;
   }
   
   .portfolio-box .portfolio-info {
     padding: 1.5rem;
+    width: 100%;
   }
   
   .portfolio-info h4 {
     font-size: 1.4rem;
+    width: 100%;
   }
   
   .portfolio-info p {
     font-size: 1rem;
+    width: 100%;
   }
 }
 
