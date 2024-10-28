@@ -584,11 +584,11 @@ span {
   
   .portfolio-info h4 {
     font-size: 1.4rem;
-    margin-right: 3rem;
   }
   
   .portfolio-info p {
-    font-size: 1rem;
+    font-size: 2rem;
+    margin-right: 3rem;
   }
 }
 
