@@ -700,6 +700,7 @@ span {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+    margin-right: 20px; /* Menambahkan margin ke kanan */
 }
 
 .text-center .btn:hover {
@@ -708,7 +709,6 @@ span {
 
 .text-center span {
     font-size: 18px;
-    margin-left: 10px;
 }
 
 /* Laptop/Desktop */
