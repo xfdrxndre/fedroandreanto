@@ -564,9 +564,6 @@ span {
 }
 
 .slider {
-  height: 250px;
-  margin: auto;
-  position: relative;
   width: 100%;
   display: grid;
   place-items: center;
@@ -576,12 +573,12 @@ span {
 .slider .heading {
   background: #131313;
 }
+
 .slide-track {
-display: flex;
 width: 100%;
 animation: scroll 20s linear infinite;
-gap: 0; /* Remove the gap between slides */
 }
+
 @keyframes scroll {
 0% { transform: translateX(0); }
 100% { transform: translateX(-100%); }
