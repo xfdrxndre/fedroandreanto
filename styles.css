@@ -564,7 +564,14 @@ span {
 }
 
 .slider {
+  height: 250px;
+  margin: auto;
+  position: relative;
   width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #131313;
 }
 .slider .heading {
   background: #131313;
