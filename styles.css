@@ -565,67 +565,62 @@ span {
 
 .slider {
   height: 250px;
-  width: 100%;
+  margin: auto;
   position: relative;
+  width: 100%;
   display: grid;
   place-items: center;
   overflow: hidden;
   background: #131313;
-  padding: 0;
 }
-
+.slider .heading {
+  background: #131313;
+}
 .slide-track {
-  display: flex;
-  width: calc(250px * 18);
-  animation: scroll 20s linear infinite;
-  gap: 1rem; /* Bisa disesuaikan */
+display: flex;
+width: 100%;
+animation: scroll 20s linear infinite;
+gap: 0; /* Remove the gap between slides */
 }
-
 @keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-250px * 9));
-  }
+0% { transform: translateX(0); }
+100% { transform: translateX(-100%); }
 }
 
 .slide-track:hover {
   animation-play-state: paused;
 }
-
 .slide {
   height: 200px;
-  min-width: 250px; /* Menggunakan min-width untuk konsistensi */
+  width: 250px;
   display: flex;
   align-items: center;
   padding: 15px;
   perspective: 100px;
 }
-
-.slide img {
+.slide img{
   width: 100%;
-  height: 100%;
-  object-fit: contain; /* Menjaga aspek rasio gambar */
-  transition: transform 0.3s ease;
+  transition: transform 1ms;
 }
-
 .slide img:hover {
-  transform: scale(1.05);
+  transform: translateZ(20px);
 }
-
-/* Menghapus pseudo-element untuk full width */
 .slider::before,
 .slider::after {
-  display: none;
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
 }
-
-/* Responsive */
-@media (max-width: 768px) {
-  .slide {
-    min-width: 200px;
-    height: 150px;
-  }
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
 }
 
 .portfolio {
