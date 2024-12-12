@@ -687,6 +687,24 @@ span {
   margin: 0; /* Reset margin */
 }
 
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container .btn {
+    background-color: #2C3E50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container .btn:hover {
+    background-color: #1A2332;
+}
+
 /* Laptop/Desktop */
 @media screen and (min-width: 1024px) {
   .portfolio-container {
