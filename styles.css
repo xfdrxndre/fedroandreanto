@@ -565,9 +565,6 @@ span {
 
 .slider {
   width: 100%;
-  display: grid;
-  place-items: center;
-  overflow: hidden;
   background: #131313;
 }
 .slider .heading {
