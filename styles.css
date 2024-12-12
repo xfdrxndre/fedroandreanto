@@ -707,10 +707,6 @@ span {
     background-color: #1A2332;
 }
 
-.text-center span {
-    font-size: 18px;
-}
-
 /* Laptop/Desktop */
 @media screen and (min-width: 1024px) {
   .portfolio-container {
