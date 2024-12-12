@@ -687,22 +687,28 @@ span {
   margin: 0; /* Reset margin */
 }
 
-.button-container {
+.text-center {
     text-align: center;
     margin-top: 20px;
 }
 
-.button-container .btn {
+.text-center .btn {
     background-color: #2C3E50;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.button-container .btn:hover {
+.text-center .btn:hover {
     background-color: #1A2332;
+}
+
+.text-center span {
+    font-size: 18px;
+    margin-left: 10px;
 }
 
 /* Laptop/Desktop */
